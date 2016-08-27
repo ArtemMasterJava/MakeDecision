@@ -1,7 +1,7 @@
 package com.ivart.makedecision.Activities;
 
+import android.app.Activity;
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -15,7 +15,7 @@ import com.ivart.makedecision.R;
 
 import io.realm.Realm;
 
-public class MakeDecisionActivity extends AppCompatActivity {
+public class MakeDecisionActivity extends Activity {
 
     EditText decisionQuestion;
     Button addDecision;

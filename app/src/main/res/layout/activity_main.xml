@@ -14,7 +14,8 @@
        android:layout_height="match_parent"
        android:layout_weight="1"
        android:id="@+id/btn_make_decision"
-       android:background="@color/colorGreenLight"/>
+       android:background="@color/colorGreenLight"
+       android:textColor="@color/text_dark"/>
     <Button
         android:text="@string/get_my_decisions"
         android:textAlignment="center"
@@ -22,13 +23,15 @@
         android:layout_height="match_parent"
         android:layout_weight="1"
         android:id="@+id/btn_get_my_decisions"
-        android:background="@color/colorFiolet"/>
+        android:background="@color/colorFiolet"
+        android:textColor="@color/text_dark"/>
     <Button
         android:text="@string/about_us"
         android:textAlignment="center"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_weight="1"
+        android:layout_weight="1.2"
         android:id="@+id/btn_about_us"
-        android:background="@color/colorSky"/>
+        android:background="@color/colorSky"
+        android:textColor="@color/text_dark"/>
 </LinearLayout>
