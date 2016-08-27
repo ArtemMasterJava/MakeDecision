@@ -15,7 +15,8 @@
        android:layout_weight="1"
        android:id="@+id/btn_make_decision"
        android:background="@color/colorGreenLight"
-       android:textColor="@color/text_dark"/>
+       android:textColor="@color/text_dark"
+       android:textSize="12sp"/>
     <Button
         android:text="@string/get_my_decisions"
         android:textAlignment="center"
@@ -24,7 +25,8 @@
         android:layout_weight="1"
         android:id="@+id/btn_get_my_decisions"
         android:background="@color/colorFiolet"
-        android:textColor="@color/text_dark"/>
+        android:textColor="@color/light_grey"
+        android:textSize="12sp"/>
     <Button
         android:text="@string/about_us"
         android:textAlignment="center"
@@ -33,5 +35,6 @@
         android:layout_weight="1.2"
         android:id="@+id/btn_about_us"
         android:background="@color/colorSky"
-        android:textColor="@color/text_dark"/>
+        android:textColor="@color/text_dark"
+        android:textSize="12sp"/>
 </LinearLayout>
