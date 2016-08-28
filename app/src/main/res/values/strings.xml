@@ -4,7 +4,7 @@
     <string name="make_decision">ПРИНЯТЬ РЕШЕНИЕ</string>
     <string name="get_my_decisions">МОИ РЕШЕНИЯ</string>
     <string name="about_us">О НАС</string>
-    <string name="txtv_enter_question">Введите вопрос</string>
+    <string name="txtv_enter_question">Введите цель</string>
     <string name="add_decision">Добавить решение</string>
     <string name="enter_question">Пожалуйста, введите вопрос!</string>
     <string name="clear_decisions">Удалить решения</string>
@@ -16,4 +16,5 @@
     <string name="add_description">Добавить описание</string>
     <string name="description_was_added">Описание добавлено! Можете добавить ещё)</string>
     <string name="please_enter_description">Пожалуйста введите описание затем нажмите \"Добавить описание\"</string>
+    <string name="aboutUs">"Разработчики : Артем Анохин и Иван Киселев."</string>
 </resources>

@@ -9,8 +9,6 @@ import android.widget.TextView;
 import com.ivart.makedecision.Model.Decision;
 import com.ivart.makedecision.R;
 
-import java.util.List;
-
 import io.realm.Realm;
 import io.realm.RealmResults;
 

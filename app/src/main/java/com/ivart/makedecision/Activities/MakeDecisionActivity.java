@@ -1,7 +1,10 @@
 package com.ivart.makedecision.Activities;
 
+import android.annotation.TargetApi;
 import android.app.Activity;
 import android.content.Intent;
+import android.graphics.Color;
+import android.os.Build;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -10,6 +13,7 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 import com.ivart.makedecision.BaseApplication;
+import com.ivart.makedecision.Drawables.Drawables;
 import com.ivart.makedecision.Model.Decision;
 import com.ivart.makedecision.R;
 
@@ -23,6 +27,7 @@ public class MakeDecisionActivity extends Activity {
     Realm realm;
     Long id;
 
+    @TargetApi(Build.VERSION_CODES.JELLY_BEAN)
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -30,6 +35,7 @@ public class MakeDecisionActivity extends Activity {
         realm = Realm.getDefaultInstance();
         decisionQuestion = (EditText) findViewById(R.id.edt_decision_question);
         addDecision = (Button) findViewById(R.id.btn_add_decision);
+        addDecision.setBackground(Drawables.getSelectableDrawableFor(Color.parseColor("#a6ff9b")));
 
         addDecision.setOnClickListener(new View.OnClickListener() {
             String name;
